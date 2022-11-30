@@ -1,23 +1,23 @@
 # Vulnerable Software in Your Pocket
 
-This is repository for the seminar and workshop that takes place on 1th December 2022 at UVP Technicom Košice.
+This repository is for the seminar and workshop that take place on December 1st 2022 at UVC Technicom Košice.
 
-## Workshop Environment Prerequisites
+## Environment Setup
 
-- Android Studio
-- Android Virtual Device (Pixel 6, Android 9 | x86_64)
-- ADB
-- Text/Code editor (e.g. Visual Studio Code)
-- Exploits source code from [here](https://github.com/LukasNad/vulnerable-software-in-your-pocket/tree/master/ExploitSources)
+1. Download and install JADX-GUI (<https://github.com/skylot/jadx/releases/tag/v1.4.5>).
+2. Download and install Android Studio (<https://developer.android.com/studio>) and note down the SDK installation folder.
+3. Download the files from this repository.
+4. Open the project `InsecureBroadcastReceiverDEMO` in Android Studio.
+4. Launch the Device Manager and create a new Android Virtual Device with the following properties: Pixel 6, Android 9.0 (Pie) x86_64 **without** Google APIs.
+5. Add Android studio SDK `platform-tools` to PATH. Default `platform-tools` location is C:\Users\\<CURRENT_USER>\AppData\Local\Android\Sdk\platform-tools.
 
-## Workshop Useful Links
+### Troubleshooting
 
-- Interactsh Web Client tool: <https://app.interactsh.com/>
-- Android Studio: <https://developer.android.com/studio>
-- InsecureShop Git: <https://github.com/hax0rgb/InsecureShop>
-- Jadx tool Git: <https://github.com/skylot/jadx>
+If you get an error message saying that "Android Emulator Hypervisor Driver installation failed", enable CPU virtualization in BIOS.
 
-## Workshop Environment Setup
+## Useful Links
 
-1. Download and install Android Studio.
-2. In Android Studio create new device within `Device Manager`. Device properties: Phone, Pixel 6, Android 9 (Pie), x86_64, **without** Google APIs.
+- Interactsh Web Client: <https://app.interactsh.com/>
+- URL Encode/Decode: <https://www.url-encode-decode.com/>
+- InsecureShop: <https://www.insecureshopapp.com/>
+
