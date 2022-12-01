@@ -1,6 +1,6 @@
 # Vulnerable Software in Your Pocket
 
-This repository is for the seminar and workshop that take place on December 1st 2022 at UVC Technicom Košice.
+This repository is for the seminar and workshop that take place on December 1st 2022 at UVP Technicom Košice.
 
 ## Environment Setup
 
