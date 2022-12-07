@@ -1,6 +1,6 @@
 # Vulnerable Software in Your Pocket
 
-This repository is for the seminar and workshop that takes place on December 13th 2022 at UPJS Košice.
+This repository is for the seminar and workshop that take place on December 13th 2022 at UPJS Košice.
 
 ## Environment Setup
 
