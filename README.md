@@ -4,7 +4,7 @@ This repository is for the seminar and workshop that take place on December 13th
 
 ## Environment Setup
 
-1. Download and install JADX-GUI (<https://github.com/skylot/jadx/releases/tag/v1.4.5>).
+1. Download and install JADX-GUI (<https://github.com/skylot/jadx/releases>).
 2. Download and install Android Studio (<https://developer.android.com/studio>) and note down the SDK installation folder.
 3. Download the files from this repository.
 4. Open the project `InsecureBroadcastReceiverDEMO` (from the `ExploitSources` folder) in Android Studio.
